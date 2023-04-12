@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.grpc.basic";
+
+package com.grpc.basic;
+
+service GreetingService {
+  rpc SayHello (RequestMessage) returns (ResponseMessage) {}
+}
+
+message RequestMessage {
+  string name = 1;
+}
+
+message ResponseMessage {
+  string message = 1;
+}
