@@ -1,1 +1,1 @@
-# Hands-on projects based on gRPC.
+# Exploring gRPC.
